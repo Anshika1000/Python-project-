@@ -1,0 +1,27 @@
+"""
+Work Flow of Project
+-Input from user(Rock, Paper, Scissor)
+-Computer choice(Computer well choose randomly not conditionally)
+-Result print
+
+Here is our logic
+Cases:
+A- Rock
+Rock - Rock= Tie
+Rock - Paper= Paper win
+Rock - Scissor= Rock win
+
+B- Paper
+Paper - Paper= Tie
+Paper - Rock= Paper win
+Paper - Scissor= Scissor win
+
+C- Scissor
+Scissor - Scissor= Tie
+Scissor - Rock= Rock win
+Scissor - Paper= Scissor
+
+"""
+import random
+item_list=["Rock","Paper","Scissor"]
+user_choice=input("Enter your move = Rock,Paper,Scissor :")
